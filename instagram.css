@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    border-right: 1px solid rgb(219, 219, 219);
+    height: 100%;
+}
+
+.side-bar{
+    width: 200px;
+    position: fixed;
+}
+
+.top{
+    height:100px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.home{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 190px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+.home:hover{
+    background-color:rgb(225, 225, 225);
+    border-radius: 10px;
+}
+
+.home-png{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.home2-text{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.suggested{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 400px;
+    margin-top: 30px;
+}
+
+.follow-list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.follow-toni{
+    display: flex;
+}
+
+.toni-dp{
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    object-fit: cover;
+}
+
+.follow-name{
+    display: flex;
+}
+
+.follow-sub{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.follow-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sugg{
+    color: rgb(115, 115, 155);
+    font-size: 12px;
+    font-size: 400;
+}
+
+.bt-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-bt{
+    width: 81px;
+    height: 32px;
+    background-color: rgb(0, 149, 246);
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 300px;
+    transition: 0.3s;
+}
+
+.follow-bt:hover{
+    background-color: rgb(9, 87, 255);
+}
