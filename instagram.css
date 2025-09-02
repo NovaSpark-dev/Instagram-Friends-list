@@ -9,6 +9,8 @@ nav{
 
 details {
     width: 300px;
+    position: fixed;
+    background-color: white;
 }
 
 /* Hide default arrow */
