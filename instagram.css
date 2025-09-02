@@ -3,28 +3,9 @@ body{
 }
 
 nav{
+    border-right: 1px solid rgb(219, 219, 219);
     height: 100%;
-    width: 200px;
 }
-
-details {
-    width: 300px;
-}
-
-/* Hide default arrow */
-summary::-webkit-details-marker {
-    display: none;
-}
-
-/* Hide the default arrow (Firefox) */
-  details > summary::marker { content: ""; }
-
-  summary {
-    cursor: pointer;
-    font-size: 50px;
-    font-weight: bold;
-    display: inline-block;
-  }
 
 .side-bar{
     width: 200px;
