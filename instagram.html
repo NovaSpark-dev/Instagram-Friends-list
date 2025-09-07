@@ -48,7 +48,9 @@
                     <div class="sugg">suggested for you</div>
                 </div>
                 <div class="bt-con">
-                    <button class="follow-bt">Follow</button>
+                    <button class="follow-bt" onclick="
+                        toFollow(this)
+                        ">Follow</button>
                 </div>
             </div>
             <div class="follow-toni">
@@ -59,7 +61,9 @@
                     <div class="sugg">suggested for you</div>
                 </div>
                 <div class="bt-con">
-                    <button class="follow-bt">Follow</button>
+                    <button class="follow-bt" onclick="
+                        toFollow(this)
+                        ">Follow</button>
                 </div>
             </div>
             <div class="follow-toni">
@@ -70,7 +74,9 @@
                     <div class="sugg">suggested for you</div>
                 </div>
                 <div class="bt-con">
-                    <button class="follow-bt">Follow</button>
+                    <button class="follow-bt" onclick="
+                        toFollow(this)
+                        ">Follow</button>
                 </div>
             </div>
             <div class="follow-toni">
@@ -81,7 +87,9 @@
                     <div class="sugg">suggested for you</div>
                 </div>
                 <div class="bt-con">
-                    <button class="follow-bt">Follow</button>
+                    <button class="follow-bt" onclick="
+                        toFollow(this)
+                        ">Follow</button>
                 </div>
             </div>
             <div class="follow-toni">
@@ -92,7 +100,9 @@
                     <div class="sugg">suggested for you</div>
                 </div>
                 <div class="bt-con">
-                    <button class="follow-bt">Follow</button>
+                    <button class="follow-bt" onclick="
+                        toFollow(this)
+                        ">Follow</button>
                 </div>
             </div>
             <div class="follow-toni">
@@ -103,7 +113,9 @@
                     <div class="sugg">suggested for you</div>
                 </div>
                 <div class="bt-con">
-                    <button class="follow-bt">Follow</button>
+                    <button class="follow-bt" onclick="
+                        toFollow(this)
+                        ">Follow</button>
                 </div>
             </div>
             <div class="follow-toni">
@@ -114,7 +126,9 @@
                     <div class="sugg">suggested for you</div>
                 </div>
                 <div class="bt-con">
-                    <button class="follow-bt">Follow</button>
+                    <button class="follow-bt" onclick="
+                        toFollow(this)
+                        ">Follow</button>
                 </div>
             </div>
             <div class="follow-toni">
@@ -125,7 +139,9 @@
                     <div class="sugg">suggested for you</div>
                 </div>
                 <div class="bt-con">
-                    <button class="follow-bt">Follow</button>
+                    <button class="follow-bt" onclick="
+                        toFollow(this)
+                        ">Follow</button>
                 </div>
             </div>
             <div class="follow-toni">
@@ -136,10 +152,22 @@
                     <div class="sugg">suggested for you</div>
                 </div>
                 <div class="bt-con">
-                    <button class="follow-bt">Follow</button>
+                    <button class="follow-bt" onclick="
+                        toFollow(this)
+                        ">Follow</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>
+        function toFollow(buttonElement) {
+        if (buttonElement.innerText === 'Follow') {
+            buttonElement.innerText = 'Following';
+        } else {
+            buttonElement.innerText = 'Follow';
+        }
+    }
+    </script>
 </body>
 </html>
